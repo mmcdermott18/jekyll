@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/open/2019/02/05/test.html</loc>
-<lastmod>2019-02-05T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>/open/2019/03/05/test.html</loc>
-<lastmod>2019-03-05T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>/open/2019/03/06/test.html</loc>
-<lastmod>2019-03-06T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>/open/2019/03/07/test.html</loc>
-<lastmod>2019-03-07T00:00:00-05:00</lastmod>
-</url>
-<url>
-<loc>/open/2019/03/22/os.html</loc>
-<lastmod>2019-03-22T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>/workshop/2019/03/29/ws.html</loc>
-<lastmod>2019-03-29T00:00:00-04:00</lastmod>
-</url>
-<url>
-<loc>/talk/2019/04/05/talk.html</loc>
-<lastmod>2019-04-05T00:00:00-04:00</lastmod>
-</url>
-<url>
 <loc>/</loc>
 </url>
 <url>
