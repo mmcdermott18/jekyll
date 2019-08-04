@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Class Helper</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div id="container">
+    <p>Class Helper 1.0</p>
+    <input id="names" type="text" name="names" placeholder="enter name">
+    <input type="button" id="button1" value="Add"></input>
+    <p>Student List</p>
+    <ol id="list"></ol>
+    <hr>
+    <p>Save List</p>
+    <input id="save" type="text" name="save" placeholder="list name">
+    <input type="button" id="button5" value="Save"></input>
+    <hr>
+    <p>Time Left in Class</p>
+    <input id="hours" type="number" name="hours" placeholder="hours">
+    <input id="minutes" type="number" name="minutes" placeholder="minutes">
+    <p>Breaks</p>
+    <input id="nB" type="number" name="nB" placeholder="number">
+    <input id="tB" type="number" name="tB" placeholder="minutes"><br>
+    <p><input type="button" id="button6" value="Set"></input></p>
+    <p id="setTime"></p>
+    <hr>
+    <p>Set Groups</p>
+    <input id="groups" type="text" name="groups" placeholder="how many groups">
+    <input type="button" id="button3" value="Group"></input>&ensp;<input type="button" id="button2" value="No Groups"></input>&ensp;<input type="button" id="buttonClear" value="Clear"></input>
+    <div id="shuffledTime"></div>
+    <ol id="shuffled"></ol>
+    <p id="PPTime"></p>
+    <div id="groupings"></div>
+    <hr>
+    <p>Recall Saved List</p>
+    <div id="savedLists">
+      <input type="button" id="button4" value=""></input>
+    </div>
+    <hr>
+    <p><input type="button" id="begin" value="Start Class"></input></p>
+    <p class="countdown"></p>
+  </div>
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
